@@ -35,7 +35,7 @@ function Formikform() {
              <form onSubmit={handleSubmit}>
                 <div>
                    <div className="all">
-                      <table>
+                    
                           <div className="main">
                                <label htmlFor="name" className="input-label" >Name</label> 
                               <input type="name" autoComplete="off" name="name" id="name" placeholder="Enter The Name" value={values.name} onChange={handleChange} onBlur={handleBlur}/> 
@@ -68,7 +68,7 @@ function Formikform() {
                             Submit
                             </button>
                           </div>
-                      </table>
+                      
                    </div>
                </div>
              </form>
